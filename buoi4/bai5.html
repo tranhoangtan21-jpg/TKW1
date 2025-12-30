@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+<h2>Form đặt hàng</h2>
+<form method="post" action="#">
+Tên khách hàng:<br>
+<input type="text" name="ten"><br><br>
+Số điện thoại:<br>
+<input type="text" name="sdt"><br><br>
+Sản phẩm:<br>
+<select name="sanpham">
+<option>Áo</option>
+<option>Quần</option>
+<option>Giày</option>
+</select>
+<br><br>
+Số lượng:<br>
+<input type="number" name="soluong"><br><br>
+Hình thức thanh toán:<br>
+<input type="radio" name="thanhtoan" value="Tien mat"> Tiền mặt
+<input type="radio" name="thanhtoan" value="Chuyen khoan"> Chuyển khoản
+<br><br>
+Ghi chú:<br>
+<textarea name="ghichu" rows="3"></textarea>
+<br><br>
+<input type="submit" value="Đặt hàng">
+</form>
+</body>
+</html>
