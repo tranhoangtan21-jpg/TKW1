@@ -1,0 +1,127 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.hd{
+    background: linear-gradient(blue, rgb(211, 8, 69));
+    color: white;
+    padding: 20px;
+    text-align: center;
+}
+.menu{
+    background:linear-gradient(black,red);
+    padding:5px;
+    text-align:center;
+}
+.menu a{
+    color: rgb(255, 254, 254);
+    margin: 0 15px;
+    text-decoration: none;
+    font-weight: bold;
+}
+.courses {
+    max-width: 1200px;
+    margin: auto;
+}
+
+.title {
+    display: flex;
+    align-items: center;
+    font-size: 24px;
+    margin-bottom: 30px;
+}
+
+.title .line {
+    width: 5px;
+    height: 30px;
+    background: #2563eb;
+    margin-right: 10px;
+}
+
+.course-list {
+    display: flex;
+    gap: 20px;
+}
+
+.course-card {
+    background: #edeaea;
+    border-radius: 12px;
+    padding: 25px;
+    width: 100%;
+    box-shadow: 0 8px 20px rgba(0,0,0,0.05);
+}
+
+.course-card h3 {
+    font-size: 22px;
+    margin-bottom: 10px;
+}
+
+.course-card p {
+    color: #555;
+    margin-bottom: 20px;
+}
+
+.price {
+    color: #2563eb;
+    font-weight: bold;
+    font-size: 18px;
+}
+.fee-table{
+    Width: 100%;
+    border-collapse: collapse;
+    margin-top: 20px;
+    text-align: center;
+}
+th {
+    background-color: #83d6ff;
+    color: black;
+    padding: 8px;
+}
+th, td {
+    border-bottom: 1px solid #ccc;
+    padding: 8px;
+}
+.title {
+    margin-top: 30px;
+    margin-bottom: 10px;
+    font-size: 24px;
+    font-weight: bold;
+}
+.form-container {
+    margin-top: 10px;
+}
+.form-container select {
+    width: 100%;
+    padding: 10px;
+    font-size: 15px;
+    height: 30px;
+    border-radius: 6px;
+    border: 1px solid #ffffff;
+}
+
+.form-container input,
+.form-container button {
+    display: block;
+    width: 100%;
+    margin: 10px 0;
+    padding: 10px;
+    border-radius: 6px;
+    border: 1px solid #ccc;
+    font-size: 14px;
+}
+.form-container button {
+    background-color: #4da6ff;
+    color: white;
+    border: none;
+    cursor: pointer;
+}
+.form-container button:hover {
+    background-color: #3399ff;
+}
+.footer{
+    background: black;
+    color: white;
+    text-align: center;
+    padding: 10px;
+}
